@@ -1,0 +1,62 @@
+
+
+.chatbuttonIn {
+    width: 300px;
+    position: relative;
+}
+  
+.chatinput {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    outline: none;
+    height: 36px;
+    border-radius: 5px;
+
+    display: block;
+    
+  
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    min-width: 250px;
+    
+}
+  
+.chatbutton {
+    position: absolute;
+    top: 0;
+    border-radius: 5px;
+    right: 0px;
+    z-index: 2;
+    border: none;
+    top: 0px;
+    height: 36px;
+    cursor: pointer;
+    color: white;
+    background-color: #1e90ff;
+    transform: translateX(2px);
+    min-width: 60px;
+    
+}
+
+.chatblock{
+    border-width: 3px;
+    border-color: #bbc;
+    border-radius: 5px;
+    border-style: double;
+    border-style: outse;
+    padding: 5px;
+    margin: 5px;
+    max-height: 300px;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+
+}
+
